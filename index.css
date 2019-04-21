@@ -1,4 +1,4 @@
-#base{
+.base{
 	background-image:  url("res/pic.jpg");
 	height: 900px;
 	background-position:top;
@@ -20,4 +20,16 @@ span{
 
 body{
 	background: green;
+}
+
+#skillsets{
+	background-image:  url("res/pic2.jpg");
+}
+
+#works{
+	background-image:  url("res/pic3.jpg");
+}
+
+#contact{
+	background-image:  url("res/pic4.jpg");
 }
