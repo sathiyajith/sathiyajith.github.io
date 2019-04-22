@@ -73,19 +73,3 @@ body{
   height: 100%;
   position:absolute;
 }
-
-@media only screen and (max-width: 1200px) {
-  body{
-    dislay:block;
-  }
-.base{
-  padding-top: 50px;
-  padding-left: 800px;
-  padding-right:50px;
-}
-
-.container{
-    padding-top: 20%;
-  padding-left: 500px;
-}
-}
