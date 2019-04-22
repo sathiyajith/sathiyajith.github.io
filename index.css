@@ -5,6 +5,7 @@
 	background-size:cover;
 	background-repeat: no-repeat;
 	width: 100%;
+  padding-top: 50px;
 	padding-left: 800px;
 	transition: all .3s;	
 	position:relative;
@@ -19,7 +20,6 @@
 
 span{
 	margin:0 auto;
-	padding:20px;
 	display:block;
 	color: white;
 	text-align: center;
@@ -38,7 +38,6 @@ span{
 	background-image:  url("res/pic2.jpg");
 }
 .report{
-    padding:200px;
     font-size: 30px;
     color: #fff;
 }
@@ -54,7 +53,6 @@ span{
 
 .ksa{
 	margin:0 auto;
-	padding:20px;
 	display:block;
 	color: white;
 	text-align: center;
@@ -63,12 +61,6 @@ span{
 	overflow: hidden;
 }
 
- @media all and (max-width: 768px){
-   #page{
-     padding-left: 30px !important;
-     padding-right: 30px !important;
-   }
- }
 
 
 .icons{
