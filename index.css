@@ -62,8 +62,11 @@ span{
 
 
 .icons{
-	width: 31%;
-	display: inline-block;
+  display: inline-block;
+  letter-spacing: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+
 }
 
 body{
@@ -81,10 +84,9 @@ body{
   height: 63%;
 }
 .icons{
-  letter-spacing:0.2px;
   padding-right:600px;
   display:inline-block;
-  width: 5px;
+  width: 2px;
   height:80px;
   line-height: 1px;
 }
