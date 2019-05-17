@@ -12,8 +12,8 @@
 </head>
 <body>
 	<div id="loading">
- 	 <img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
-	</div>
+	<img id="loading-image" src="img/loading.gif" alt="Loading..." />
+	</div> 
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light visible-xs">
 
@@ -86,9 +86,7 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
 
 <script language="javascript" type="text/javascript">
-     $(window).load(function() {
-     $('#loading').hide();
-  });
+     window.onload = function(){ document.getElementById("loading").style.display = "none" }
 </script>
 
 </body>
