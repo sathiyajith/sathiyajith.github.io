@@ -20,7 +20,38 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script>
+		console.log("works");
+
+		function sendMessage()
+		{
+			var name = document.getElementById("senderName").value;
+			var senderEmail = document.getElementById('senderEmail').value;
+			var subject = document.getElementById('subject').value;
+			var message = document.getElementById('message').value;
+
+			var fromDetails = "From Name: "+name+" Mail: "+senderEmail;
+
+			var message = fromDetails+'\n '+message;
+
+			var newUrl = "https://mail.google.com/mail?view=cm&tf=0" +
+			"&to=" + "sathiyajith19@gmail.com" +
+			"&cc=" + "" +
+			"&su=" + subject +
+			"&body=" + message;
+
+			window.open(newUrl);
+
+			console.log(name.value);
+			console.log(senderEmail.value);
+			console.log(subject.value);
+			console.log(message.value);
+		}
+		
+	</script>
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -76,7 +107,7 @@
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm an <span>Artist</span></h1>
-			            <p><a href="https://www.github.com/sathiyajith" class="btn btn-primary py-3 px-4">My works</a></p>
+			            <p><a href="https://www.instagram.com/k.s._.a/" class="btn btn-primary py-3 px-4">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -107,7 +138,7 @@
 		            	<li class="d-flex"><span>Address:</span> <span>Erode TamilNadu</span></li>
 		            	<li class="d-flex"><span>Zip code:</span> <span>638455</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span>sathiyajith19@gmail.com</span></li>
-		            	<li class="d-flex"><span>Phone: </span> <span>8825863668</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>9976770500</span></li>
 		            </ul>
 		          </div>
 		        </div>
@@ -236,8 +267,8 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Revise With ME</a></h3>
-	    					<span>Android Application</span>
+	    					<h3><a href="https://github.com/sathiyajith/ReviseWithMe">Revise With ME</a></h3>
+	    					<span>Learning Android Application</span>
 	    				</div>
     				</div>
   				</div>
@@ -245,8 +276,8 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Connect The Dots</a></h3>
-	    					<span>Android Application</span>
+	    					<h3><a href="https://github.com/sathiyajith/IBM-Hack-Challenge">Method Trace Analyzer</a></h3>
+	    					<span>Debugging Software</span>
 	    				</div>
     				</div>
   				</div>
@@ -255,16 +286,16 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Automatic Parking Lot Allocation</a></h3>
-	    					<span>Android Application</span>
+	    					<h3><a href="https://github.com/sathiyajith/Spotted">Spotted</a></h3>
+	    					<span>Public Service Android Application</span>
 	    				</div>
     				</div>
 
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Method Trace Analyzer</a></h3>
-	    					<span>Python &amp; Tkinter</span>
+	    					<h3><a href="#">SAMS Online Event Management</a></h3>
+	    					<span>Event Managing Android Application</span>
 	    				</div>
     				</div>
     			</div>
@@ -274,7 +305,7 @@
 		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Smart Stove</a></h3>
+			    					<h3><a href="https://github.com/sathiyajith/SmartStove">Smart Stove</a></h3>
 			    					<span>Internet Of Things</span>
 			    				</div>
 		    				</div>
@@ -283,8 +314,8 @@
 		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Online Event Management System</a></h3>
-			    					<span>Android Application</span>
+			    					<h3><a href="#">Scopus Citation Updater</a></h3>
+			    					<span>Scopus Updating Web Application</span>
 			    				</div>
 		    				</div>
 	    				</div>
@@ -344,7 +375,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="whatsapp://+91 9976770500">+91 8825863668</a></p>
+	            <p><a href="whatsapp://+91 9976770500">+91 9976770500</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-4 d-flex ftco-animate">
@@ -362,19 +393,19 @@
           <div class="col-md-6 order-md-last d-flex">
             <form action="#" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" id="senderName" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" id="senderEmail" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input id="emailSubmit" type="submit"  onclick = "sendMessage()" Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
